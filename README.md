@@ -1,4 +1,4 @@
-The Ultimate BLK Challenge
+The Ultimate Challenge
 
 **Prerequisite**
 
