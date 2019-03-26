@@ -2,7 +2,7 @@ The Ultimate BLK Challenge
 
 **Prerequisite**
 
-Using `nvm` is highly recommended when switching between node versions. When using `nvm`, make sure to **run the cmd with BlackRock Elevated Rights**. When doing `nvm use <version>`, make sure to **turn off antivirus scan of http requests** in your machine (System tray > McAfee > Quick Settings > Disable Endpoint Security Scanners)
+Using `nvm` is highly recommended when switching between node versions. When using `nvm`, make sure to **run the cmd with Administrator**. When doing `nvm use <version>`, make sure to **turn off antivirus scan of http requests** in your machine (System tray > McAfee > Quick Settings > Disable Endpoint Security Scanners)
 - node.js v10.15.0 (npm v6.4.1)
 - ionic v4.11.0
 
