@@ -8,22 +8,6 @@ Using `nvm` is highly recommended when switching between node versions. When usi
 
 **Installation**
 
-.npmrc (to point to external registry thru proxy)
-```
-http-proxy=http://blkusername:blkpasswordurlencoded@sgp-webproxy.blackrock.com:8080
-https-proxy=http://blkusername:blkpasswordurlencoded@sgp-webproxy.blackrock.com:8080
-```
-
-Set git and windows proxies
-```
-set HTTP_PROXY=http://blkusername:blkpasswordurlencoded@sgp-webproxy.blackrock.com:8080
-set HTTPS_PROXY=http://blkusername:blkpasswordurlencoded@sgp-webproxy.blackrock.com:8080
-set PROXY=http://blkusername:blkpasswordurlencoded@sgp-webproxy.blackrock.com:8080
-git config --global http.proxy http://blkusername:blkpasswordurlencoded@sgp-webproxy.blackrock.com:8080
-git config --global https.proxy http://blkusername:blkpasswordurlencoded@sgp-webproxy.blackrock.com:8080
-git config --global url.https://github.com/.insteadOf git://github.com/
-```
-
 NPM global packages
 ```
 npm install -g ionic
