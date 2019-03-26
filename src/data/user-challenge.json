@@ -1,0 +1,207 @@
+[
+  {
+    "userName": "bsantos",
+    "firstName": "Bernardo",
+    "lastName": "Santos Jr.",
+    "employeeId": 556878,
+    "stepsCountToday": 3567,
+    "totalAmountToRetirement": 41,
+    "totalAmountDonated": 70,
+    "currentChallenge": {
+      "startDate": "March 1, 2019",
+      "endDate": "April 1, 2019",
+      "capital": 900,
+      "daysOf10000": 6,
+      "daysSinceStart": 14,
+      "gain": 0,
+      "retirement": 0,
+      "donated": 0,
+      "status": "STARTED",
+      "dailyStepRecord": [],
+      "charity": {
+          "charityId": 1223146,
+          "charityName": "AVENUES FOR HOMELESS YOUTH",
+          "description": "Wilder Research estimates that, on any night in the state of Minnesota, 6,000+ youth and young adults are homeless and unaccompanied by an adult"
+        }
+    },
+    "pastChallenges": [
+      {
+        "startDate": "Oct 23, 2018",
+        "endDate": "Nov 23, 2018",
+        "capital": 700,
+        "daysOf10000": 15,
+        "daysSinceStart": 0,
+        "gain": 35,
+        "retirement": 21,
+        "donated": 14,
+        "status": "COMPLETED",
+        "dailyStepRecord": [],
+        "charity": {
+          "charityId": 1223114,
+          "charityName": "REACH Youth Service",
+          "description": "REACH Youth Service comprises of a team of passionate and dedicated change agents who desire to spark transformation in youths."
+        }
+      },
+      {
+        "startDate": "Nov 24, 2018",
+        "endDate": "Dec 24, 2018",
+        "capital": 800,
+        "daysOf10000": 16,
+        "daysSinceStart": 0,
+        "gain": 40,
+        "retirement": 24,
+        "donated": 16,
+        "status": "COMPLETED",
+        "dailyStepRecord": [],
+        "charity": {
+          "charityId": 1223126,
+          "charityName": "FRIENDS OF YOUTH",
+          "description": "With 67 years of experience, national accreditation, 26 program sites, and services in 18 cities, Friends of Youth annually serves more than 6,500 children, youth, young adults, and their families"
+        }
+      },
+      {
+        "startDate": "Jan 10, 2019",
+        "endDate": "Feb 10, 2019",
+        "capital": 1000,
+        "daysOf10000": 13,
+        "daysSinceStart": 0,
+        "gain": 0,
+        "retirement": 0,
+        "donated": 40,
+        "status": "FAILED",
+        "dailyStepRecord": [],
+        "charity": {
+          "charityId": 1223256,
+          "charityName": "YOUTH EASTSIDE SERVICES",
+          "description": "Through intervention, outreach and prevention, YES builds confidence and responsibility, strengthens family relationships and advocates for a safer community that cares for its youth"
+        }
+      }
+    ]
+  },
+  {
+    "userName": "fmarco",
+    "firstName": "Francisco",
+    "lastName": "Marco Jr.",
+    "employeeId": 522412,
+    "stepsCountToday": 1567,
+    "totalAmountToRetirement": 18,
+    "totalAmountDonated": 128,
+    "currentChallenge": null,
+    "pastChallenges": [
+      {
+        "startDate": "June 11, 2018",
+        "endDate": "July 11, 2018",
+        "capital": 600,
+        "daysOf10000": 17,
+        "daysSinceStart": 0,
+        "gain": 30,
+        "retirement": 18,
+        "donated": 12,
+        "status": "COMPLETED",
+        "dailyStepRecord": [],
+        "charity": {
+          "charityId": 1223114,
+          "charityName": "REACH Youth Service",
+          "description": "REACH Youth Service comprises of a team of passionate and dedicated change agents who desire to spark transformation in youths."
+        }
+      },
+      {
+        "startDate": "July 25, 2018",
+        "endDate": "Aug 25, 2018",
+        "capital": 950,
+        "daysOf10000": 11,
+        "daysSinceStart": 0,
+        "gain": 0,
+        "retirement": 0,
+        "donated": 76,
+        "status": "FAILED",
+        "dailyStepRecord": [],
+        "charity": {
+          "charityId": 1223126,
+          "charityName": "FRIENDS OF YOUTH",
+          "description": "With 67 years of experience, national accreditation, 26 program sites, and services in 18 cities, Friends of Youth annually serves more than 6,500 children, youth, young adults, and their families"
+        }
+      },
+      {
+        "startDate": "Jan 10, 2019",
+        "endDate": "Feb 10, 2019",
+        "capital": 1000,
+        "daysOf10000": 13,
+        "daysSinceStart": 0,
+        "gain": 0,
+        "retirement": 0,
+        "donated": 40,
+        "status": "FAILED",
+        "dailyStepRecord": [],
+        "charity": {
+          "charityId": 1223256,
+          "charityName": "YOUTH EASTSIDE SERVICES",
+          "description": "Through intervention, outreach and prevention, YES builds confidence and responsibility, strengthens family relationships and advocates for a safer community that cares for its youth"
+        }
+      }
+    ]
+  },
+  {
+    "userName": "yukim",
+    "firstName": "Chloe",
+    "lastName": "Kim",
+    "employeeId": 438409 ,
+    "stepsCountToday": 3521,
+    "totalAmountToRetirement": 90,
+    "totalAmountDonated": 60,
+    "currentChallenge": null,
+    "pastChallenges": [
+      {
+        "startDate": "June 11, 2018",
+        "endDate": "July 11, 2018",
+        "capital": 1000,
+        "daysOf10000": 15,
+        "daysSinceStart": 0,
+        "gain": 50,
+        "retirement": 30,
+        "donated": 20,
+        "status": "COMPLETED",
+        "dailyStepRecord": [],
+        "charity": {
+          "charityId": 1223114,
+          "charityName": "REACH Youth Service",
+          "description": "REACH Youth Service comprises of a team of passionate and dedicated change agents who desire to spark transformation in youths."
+        }
+      },
+      {
+        "startDate": "July 25, 2018",
+        "endDate": "Aug 25, 2018",
+        "capital": 1000,
+        "daysOf10000": 16,
+        "daysSinceStart": 0,
+        "gain": 50,
+        "retirement": 30,
+        "donated": 20,
+        "status": "COMPLETED",
+        "dailyStepRecord": [],
+        "charity": {
+          "charityId": 1223126,
+          "charityName": "FRIENDS OF YOUTH",
+          "description": "With 67 years of experience, national accreditation, 26 program sites, and services in 18 cities, Friends of Youth annually serves more than 6,500 children, youth, young adults, and their families"
+        }
+      },
+      {
+        "startDate": "Jan 10, 2019",
+        "endDate": "Feb 10, 2019",
+        "capital": 1000,
+        "daysOf10000": 17,
+        "daysSinceStart": 0,
+        "gain": 50,
+        "retirement": 30,
+        "donated": 20,
+        "status": "COMPLETED",
+        "dailyStepRecord": [],
+        "charity": {
+          "charityId": 1223256,
+          "charityName": "YOUTH EASTSIDE SERVICES",
+          "description": "Through intervention, outreach and prevention, YES builds confidence and responsibility, strengthens family relationships and advocates for a safer community that cares for its youth"
+        }
+      }
+    ]
+  }
+]
