@@ -1,0 +1,18 @@
+.login-main-container {
+  width: 100vw;
+  height: 100vh;
+  font-family: AvenirNextLTPro-Light;
+  background: url("/assets/images/login-background.jpg") -632px -42px;
+}
+
+.login-card {
+  background: #FFFFFF;
+  font-family: AvenirNextLTPro-Light;
+}
+
+.error-message {
+  font-family: AvenirNextLTPro-Light;
+  text-align: center;
+  font-size: x-small;
+  color: red;
+}

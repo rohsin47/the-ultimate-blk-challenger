@@ -1,0 +1,19 @@
+<!--<ion-header *ngIf="challengeMode === challengeModeEnum.REGISTRATION" class="main-page-title">
+  <ion-toolbar>
+    <ion-title class="my-challenge-title">
+      BLK Employee Registration
+    </ion-title>
+  </ion-toolbar>
+</ion-header>-->
+
+<ion-content>
+  <div *ngIf="challengeMode === challengeModeEnum.NO_CHALLENGE">
+    <app-no-challenge (enrollNow)="onEnrollNow($event)"></app-no-challenge>
+  </div>
+  <div *ngIf="challengeMode === challengeModeEnum.WITH_CHALLENGE">
+    <app-with-challenge></app-with-challenge>
+  </div>
+  <div *ngIf="challengeMode === challengeModeEnum.REGISTRATION">
+    <app-registration (back)="onRegistrationBack($event)" (register)="onRegister($event)"></app-registration>
+  </div>
+</ion-content>

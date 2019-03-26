@@ -1,0 +1,41 @@
+<ion-content>
+<!--<div class="card-background-page" style="background: url('assets/images/annie-spratt.jpg')">-->
+
+<!--   <div style="font-family: AvenirNextLTPro-Light;margin: 20px 10px 10px 10px;font-size: 50px;color: #737373;">
+    Explore
+  </div> -->
+  <ion-card class="explore-card" (click)="loadLeaders($event)">
+    <img src="assets/images/leaderboard-banner.jpg"/>
+    <ion-card-header>
+      <ion-card-subtitle></ion-card-subtitle>
+      <ion-card-title>Leaderboards</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>The top 10 of the BLK employees doing the best</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="explore-card" (click)="loadTrivia($event)">
+    <img src="assets/images/news-banner.jpg"/>
+    <ion-card-header>
+      <ion-card-subtitle></ion-card-subtitle>
+      <ion-card-title>Health News</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>View the latest health related news now!</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="explore-card" (click)="loadCharityOptions($event)">
+    <img src="assets/images/charity-banner.jpg"/>
+    <ion-card-header>
+      <ion-card-subtitle></ion-card-subtitle>
+      <ion-card-title>Charity</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Explore the charities listed on the database of benevity.org</p>
+    </ion-card-content>
+  </ion-card>
+
+<!--</div>-->
+</ion-content>

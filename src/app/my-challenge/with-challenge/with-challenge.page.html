@@ -1,0 +1,102 @@
+<div class="with-challenge-main-container">
+    <div class="tubc-main-banner"></div>
+    <div class="tubc-main-content">
+        <div style="position: relative;top: -61px;">
+            <ion-card class="the-challenge-card">
+                <ion-card-header>
+                    <div>
+                        <table>
+                            <tr>
+                                <td><ion-icon name="walk" class="welcome-icon"></ion-icon></td>
+                                <td><ion-card-title>The Challenge</ion-card-title></td>
+                            </tr>
+                        </table>
+                    </div>
+                </ion-card-header>
+                <ion-card-content>
+                    Walk 10,000 steps for 15 days within 1 month period from <span class="challenge-inline-detail">{{challenge.startDate}}</span> and grow your $<span class="challenge-inline-detail">{{challenge.capital}}</span> capital by 5%. 3% of that will be yours (credited to your retirement fund) while 2% of that will be donated to <span class="challenge-inline-detail">{{challenge.charity.charityName}}</span>. Or else, donate a portion of your capital (2% per day) to <span class="challenge-inline-detail">{{challenge.charity.charityName}} </span> when you missed the 10,000 steps.
+                </ion-card-content>
+            </ion-card>
+
+            <div style="margin: 10px; margin-top: 20px; margin-bottom: 0px;">
+                <!-- Daily Activity -->
+                <div style="margin-bottom: 10px;" class="card-title">Your Daily Activity</div>
+                <div class="daily-activity-calendar">
+                    <ion-grid>
+                        <ion-row>
+                            <ion-col class="calendar-date-item">Su</ion-col>
+                            <ion-col class="calendar-date-item">Mo</ion-col>
+                            <ion-col class="calendar-date-item">Tu</ion-col>
+                            <ion-col class="calendar-date-item">We</ion-col>
+                            <ion-col class="calendar-date-item">Th</ion-col>
+                            <ion-col class="calendar-date-item">Fr</ion-col>
+                            <ion-col class="calendar-date-item">Sa</ion-col>
+                        </ion-row>
+                        <ion-row>
+                            <ion-col class="calendar-date-item"><div>&nbsp;</div><div class="step-count-item">&nbsp;</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>&nbsp;</div><div class="step-count-item">&nbsp;</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>&nbsp;</div><div class="step-count-item">&nbsp;</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>&nbsp;</div><div class="step-count-item">&nbsp;</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>&nbsp;</div><div class="step-count-item">&nbsp;</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>1</div><div class="step-count-item">&nbsp;</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>2</div><div class="step-count-item">&nbsp;</div></ion-col>
+                        </ion-row>
+                        <ion-row>
+                            <ion-col class="calendar-date-item"><div>3</div><div class="step-count-item">530</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>4</div><div class="step-count-item">5,323</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>5</div><div class="step-count-item">6,111</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>6</div><div class="step-count-item">8,312</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>7</div><div class="step-count-item">8,773</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>8</div><div class="step-count-item">10,577</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>9</div><div class="step-count-item">451</div></ion-col>
+                        </ion-row>
+                        <ion-row>
+                            <ion-col class="calendar-date-item"><div>10</div><div class="step-count-item">698</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>11</div><div class="step-count-item">1,567</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>12</div><div class="step-count-item">&nbsp;</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>13</div><div class="step-count-item">&nbsp;</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>14</div><div class="step-count-item">&nbsp;</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>15</div><div class="step-count-item">&nbsp;</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>16</div><div class="step-count-item">&nbsp;</div></ion-col>
+                        </ion-row>
+                        <ion-row>
+                            <ion-col class="calendar-date-item"><div>17</div><div class="step-count-item">&nbsp;</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>18</div><div class="step-count-item">&nbsp;</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>19</div><div class="step-count-item">&nbsp;</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>20</div><div class="step-count-item">&nbsp;</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>21</div><div class="step-count-item">&nbsp;</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>22</div><div class="step-count-item">&nbsp;</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>23</div><div class="step-count-item">&nbsp;</div></ion-col>
+                        </ion-row>
+                        <ion-row>
+                            <ion-col class="calendar-date-item"><div>24</div><div class="step-count-item">&nbsp;</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>25</div><div class="step-count-item">&nbsp;</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>26</div><div class="step-count-item">&nbsp;</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>27</div><div class="step-count-item">&nbsp;</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>28</div><div class="step-count-item">&nbsp;</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>29</div><div class="step-count-item">&nbsp;</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>30</div><div class="step-count-item">&nbsp;</div></ion-col>
+                        </ion-row>
+                        <ion-row>
+                            <ion-col class="calendar-date-item"><div>31</div><div class="step-count-item">&nbsp;</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>&nbsp;</div><div class="step-count-item">&nbsp;</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>&nbsp;</div><div class="step-count-item">&nbsp;</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>&nbsp;</div><div class="step-count-item">&nbsp;</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>&nbsp;</div><div class="step-count-item">&nbsp;</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>&nbsp;</div><div class="step-count-item">&nbsp;</div></ion-col>
+                            <ion-col class="calendar-date-item"><div>&nbsp;</div><div class="step-count-item">&nbsp;</div></ion-col>
+                        </ion-row>
+                    </ion-grid>
+                </div>
+
+                <!-- Chosen charity -->
+                <div style="padding-top: 5px;">&nbsp;</div>
+                <div style="margin-bottom: 10px;" class="card-title">Your Chosen Charity</div>
+                <div style="padding-bottom: 20px;">
+                <div class="chosen-charity-name">{{challenge.charity.charityName}}</div>
+                <div class="chosen-charity-desc">{{challenge.charity.description}} <span><a href="javascript:void(0);">Learn more</a></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

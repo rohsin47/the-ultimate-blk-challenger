@@ -1,0 +1,126 @@
+.welcome-card ion-img {
+  max-height: 25vh;
+  overflow: hidden;
+}
+
+.summary-card {
+/*  background-image: url("../../assets/abstract-carbon-fiber-texturejpg.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: 100%;*/
+  font-family: AvenirNextLTPro-Light;
+  color: #A2A2A2;
+}
+
+.achievements {
+  background-image: url("../../assets/health-investment.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: 100%;
+  font-family: AvenirNextLTPro-Light;
+  color: #123;
+  font-size: x-small;
+}
+
+.home-main-container {
+  width: 100vw;
+  height: 93vh;
+  //background-image: url("../../assets/images/annie-spratt.jpg");
+  font-family: AvenirNextLTPro-Light;
+}
+
+.home-banner-sub-message {
+  text-align: center;
+  font-size: 9px;
+  margin-top: -5px;
+  font-style: italic;
+}
+
+.summary-icon-item {
+  font-size: 43px;
+  opacity: .8;
+}
+
+.summary-value-item {
+  font-size: 50px;
+  margin-top: -10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: AvenirNextLTPro-Medium;
+  color: #797979;
+}
+
+.summary-label-item {
+  margin-top: 6px;
+  font-size: 11px;
+  font-style: italic;
+  font-family: AvenirNextLTPro-Light;
+  color: #22586d;
+}
+
+.summary-item {
+  box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+  background: url("../../assets/walk-run-reflection.jpg") -1000px;
+  padding: 15px;
+  padding-left: 5px;
+  padding-bottom: 0px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+
+
+  &.days-of-ten-thou {
+    .summary-icon-item {
+      color: #51d28c;
+    }
+  }
+
+  &.since-begin {
+    .summary-icon-item {
+      color: #f4a942;
+    }
+  }
+
+  &.step-count {
+    .summary-icon-item {
+      color: #2683FE;
+      position: relative;
+      left: 5px;
+    }
+  }
+
+  &.donated {
+    .summary-icon-item {
+      color: #F5436A
+    }
+  }
+
+  &.gained {
+    .summary-icon-item {
+      color: #51d28c
+    }
+  }
+}
+
+.past-challenge-card {
+  background: #FFFFFF;
+  width: 100vw;
+}
+
+.past-challenge-card-title {
+  font-family: AvenirNextLTPro-Light;
+  border-bottom: pink;
+}
+
+
+.past-challenge-item-label {
+  padding-right: 10px;
+  font-family: AvenirNextLTPro-Light;
+  border-bottom: 1px solid pink;
+  margin-right: 15px;
+}
+
+.past-challenge-item-skel {
+  margin-bottom: 10px;
+}

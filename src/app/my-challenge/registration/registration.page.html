@@ -1,0 +1,112 @@
+<div class="registration-main-container">
+        <div class="tubc-main-banner"></div>
+        <div class="tubc-main-content">
+            <div style="position: relative;top: -37px;">
+            <ion-card class="welcome-card">
+                <ion-card-header style="padding:5px;">
+                    <div>
+                        <table>
+                            <tr>
+                                <td><ion-icon name="list-box" class="welcome-icon"></ion-icon></td>
+                                <td><ion-card-title class="registration-main-title"> Registration</ion-card-title></td>
+                            </tr>
+                        </table>
+                    </div>
+                </ion-card-header>
+            </ion-card>
+
+            <div style="margin: 10px; margin-top: 0px;">
+                <!-- Start date -->
+                <div style="margin-bottom: 10px;" class="card-title">Your Start Date</div>
+                <ion-datetime display-format="MMM DD, YYYY" [(ngModel)]="startDateStr" class="your-start-date"></ion-datetime>
+
+                <!-- Capital -->
+                <div style="padding-top: 10px;">&nbsp;</div>
+                <div style="margin-bottom: 10px;" class="card-title">Your $ Capital</div>
+                <ion-input type="number" [(ngModel)]="registrationForm.capital" class="your-capital" ></ion-input>
+                <div class="projected-gain" style="font-size: 11px;color: #73738d;margin-top: 5px;font-style: italic; position: relative;">
+                    Projected gain on challenge completion:
+                    <div style="padding-left: 20px; padding-top: 3px; padding-bottom: 3px;">To retirement (3%): ${{calculateGainForRetirement()}}</div>
+                    <div style="padding-left: 20px;">To charity (2%): ${{calculateGainForCharity()}}</div>
+                    <ion-icon name="logo-usd" style="position: absolute;font-size: 50px;top: 0px;right: 5px;color: #a7ecc7;"></ion-icon>
+                    <ion-icon name="heart" style="position: absolute;font-size: 50px;top: 0px;right: 45px;color: #fdacbe;"></ion-icon>
+                </div>
+
+                <!-- Employee details -->
+                <div style="padding-top: 10px;">&nbsp;</div>
+                <div style="margin-bottom: 10px;" class="card-title">Employee Details</div>
+                <div>
+                    <ion-item>
+                        <ion-label position="fixed" class="employee-details-label">Employee No.</ion-label>
+                        <ion-input class="employee-details-value" [value]="registrationForm.user.employeeNo"></ion-input>
+                    </ion-item>
+                </div>
+                <div>
+                    <ion-item>
+                        <ion-label position="fixed" class="employee-details-label">First Name</ion-label>
+                        <ion-input class="employee-details-value" [value]="registrationForm.user.firstName"></ion-input>
+                    </ion-item>
+                </div>
+                <div>
+                    <ion-item>
+                        <ion-label position="fixed" class="employee-details-label">Last Name</ion-label>
+                        <ion-input class="employee-details-value" [value]="registrationForm.user.lastName"></ion-input>
+                    </ion-item>
+                </div>
+
+                <!-- Payment -->
+                <div style="padding-top: 10px;">&nbsp;</div>
+                <div style="margin-bottom: 10px;" class="card-title">Payment</div>
+                <ion-list style="padding-top: 0px;padding-bottom: 0px;">
+                    <ion-radio-group>
+                        <div>
+                            <ion-item class="payment-type-option">
+                                <ion-label class="payment-type-label">&nbsp; By Card</ion-label>
+                                <ion-radio slot="end" (click)="paymentModeSelected(paymentModes.MANUAL)" checked [mode]="ios" ></ion-radio>
+                            </ion-item>
+                            <ion-item class="credit-card-field">
+                                <ion-input [value]="registrationForm.cardPayment.cardNumber" [disabled]="registrationForm.paymentMode !== paymentModes.MANUAL" [placeholder]="'Card No.'"></ion-input>
+                            </ion-item>
+                            <ion-item class="credit-card-field">
+                                <ion-input [value]="registrationForm.cardPayment.cvv" [disabled]="registrationForm.paymentMode !== paymentModes.MANUAL" [placeholder]="'CVV'"></ion-input>
+                            </ion-item>
+                            <ion-item class="credit-card-field">
+                                <ion-input [value]="registrationForm.cardPayment.expiration" [disabled]="registrationForm.paymentMode !== paymentModes.MANUAL" [placeholder]="'Expiration'"></ion-input>
+                            </ion-item>
+                        </div>
+
+                        <div>
+                            <ion-item class="payment-type-option">
+                                <ion-label class="payment-type-label">&nbsp; Salary Deduction</ion-label>
+                                <ion-radio slot="end" (click)="paymentModeSelected(paymentModes.SAL_DEDUCTION)" [value]="paymentModes.SAL_DEDUCTION" [mode]="ios"></ion-radio>
+                            </ion-item>
+                        </div>
+                    </ion-radio-group>
+                </ion-list>
+
+                <!-- Choose a Charity -->
+                <div style="padding-top: 10px;">&nbsp;</div>
+                <div style="margin-bottom: 10px;" class="card-title">Choose a Charity</div>
+                <ion-slides pager="true" [options]="slideOpts" class="charity-pager">
+                    <ion-slide *ngFor="let charity of charities">
+                        <ion-card class="charity-card">
+                            <ion-card-header>
+                                <ion-card-title class="charity-card-title">{{charity.charityName}}</ion-card-title>
+                            </ion-card-header>
+
+                            <ion-card-content class="card-body">
+                                {{charity.description}} <span><a href="javascript:void(0);">Learn more</a></span>
+                            </ion-card-content>
+                        </ion-card>
+                    </ion-slide>
+                </ion-slides>
+
+                <!-- Buttons -->
+                <div class="submit-container">
+                    <ion-button color="primary" (click)="backClicked()">Back</ion-button>
+                    <ion-button color="primary" (click)="registerClicked()">Register</ion-button>
+                </div>
+            </div>
+            </div>
+        </div>
+</div>

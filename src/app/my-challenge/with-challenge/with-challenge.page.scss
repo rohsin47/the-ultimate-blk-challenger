@@ -1,0 +1,62 @@
+
+.with-challenge-main-container {
+  width: 100vw;
+  height: 93vh;
+  //background-image: url("../../assets/images/annie-spratt.jpg");
+  font-family: AvenirNextLTPro-Light;
+}
+
+.card-title-icon {
+  font-size: 80px;
+  color: #2683FE;
+}
+
+.card-title-icon-container {
+  margin-top: 10px;
+  margin-bottom: -5px;
+  text-align: center;
+}
+
+.challenge-inline-detail {
+  color: #2683FE;
+}
+
+.daily-activity-calendar {
+  font-size: 18px;
+  font-family: AvenirNextLTPro-Light;
+}
+
+.calendar-date-item {
+  text-align: center;
+}
+
+.step-count-item {
+  font-size: 10px;
+  color: #f5436a;
+  top: 40px;
+  font-family: Arial;
+  margin-top: -6px;
+  text-align: center;
+  position: relative;
+}
+
+.chosen-charity-name {
+  font-size: 20px;
+  font-family: AvenirNextLTPro-Light;
+  margin-bottom: 10px;
+}
+
+.the-challenge-card {
+  background: #FFFFFF;
+  font-family: AvenirNextLTPro-Light;
+  /*position: absolute;
+  top: 19px;
+  left: 5px;
+  right: 5px;*/
+}
+
+.chosen-charity-desc {
+  font-size: 15px;
+  color: #73738d;
+  font-family: AvenirNextLTPro-Light;
+}

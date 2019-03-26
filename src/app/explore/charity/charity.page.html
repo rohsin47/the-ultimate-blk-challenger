@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Charity</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="tabs/explore"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-searchbar [(ngModel)]="searchTerm" (ionInput)="searchItem($event)" (ionBlur)="republish($event)"></ion-searchbar>
+
+  <ion-card *ngFor="let item of currentItems">
+
+    <ion-card-content>
+      <img [src] = "item.profilePic" />
+      <ion-card-title>
+        {{item.name}}
+        </ion-card-title>
+      <p>
+        {{item.about}}
+      </p>
+      <p><ion-badge item-right>{{item.count}}</ion-badge></p>
+      <ion-note item-right *ngIf="item.note">{{item.note}}</ion-note>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

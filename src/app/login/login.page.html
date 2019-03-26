@@ -1,0 +1,60 @@
+<div class="login-main-container">
+    <ion-card class="login-card" style="box-shadow: none; background: none;">
+        <ion-card-header>
+            <div>
+                <table>
+                    <tr>
+                        <td>
+                            <ion-icon name="ios-walk" md="md-walk" class="welcome-icon"></ion-icon>
+                        </td>
+                        <td>
+                            <ion-card-subtitle>LOGIN</ion-card-subtitle>
+                            <ion-card-title>The Ultimate <br/>BLK Challenger</ion-card-title>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-text>Username</ion-text>
+            <ion-item style="margin-bottom: 10px;">
+                <ion-input name="username" type="username" [(ngModel)]="username" (keyup.enter)="login()" ngmodel required></ion-input>
+            </ion-item>
+            <ion-text>Password</ion-text>
+            <ion-item>
+                <ion-input name="password" type="password" [(ngModel)]="password" (keyup.enter)="login()" ngModel required></ion-input>
+            </ion-item>
+            <div style="text-align: right; text-decoration: underline; color: #F5436A; padding-top:5px;">Forgot Password?</div>
+
+            <ion-button name="submit" expand="block" color="medium" (click)="login()" style="margin-top: 20px;" color="primary">
+                <ion-icon slot="start" name="ios-unlock"></ion-icon>
+                LOGIN
+            </ion-button>
+            <ion-button color="medium" expand="block" color="medium" style="margin-top:10px;" color="primary">
+                <ion-icon slot="start" name="ios-body"></ion-icon>
+                Learn more
+            </ion-button>
+        </ion-card-content>
+    </ion-card>
+    <!--<ion-card class="login-card">
+        <ion-text>Username</ion-text>
+        <ion-item>
+            <ion-input name="username" type="username" [(ngModel)]="username" ngmodel required></ion-input>
+        </ion-item>
+        <ion-text>Password</ion-text>
+        <ion-item>
+            <ion-input name="password" type="password" [(ngModel)]="password" ngModel required></ion-input>
+        </ion-item>
+        <ion-button name="submit" expand="block" color="medium" shape="round" fill="outline" (click)="login()">
+            <ion-icon slot="start" name="ios-unlock"></ion-icon>
+            LOGIN
+        </ion-button>
+        <a href="https://dev.blackrock.com/weblications/NoAuth/ForgotPassword2.epl">
+            <ion-text>Forgot your password?</ion-text>
+        </a>
+        <div class="error-message">
+            <ion-label>{{loginmessage}}</ion-label>
+        </div>
+
+    </ion-card>-->
+</div>

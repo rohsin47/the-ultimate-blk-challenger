@@ -1,0 +1,103 @@
+
+.no-challenge-slide-container {
+  width: 100vw;
+  height: 93vh;
+  font-family: AvenirNextLTPro-Light;
+
+  &.slide1 {
+    background: url(/assets/images/enroll-now-background-2.jpeg) -900px;
+  }
+
+  &.slide2 {
+    background: url(/assets/images/enroll-now-background-3.jpg) -450px;
+  }
+
+  &.slide3 {
+    background: url(/assets/images/enroll-now-background-4.jpg) -512px;
+  }
+}
+
+img {
+  display: block;
+  max-width:230px;
+  max-height:95px;
+  width: auto;
+  height: auto;
+}
+
+.challenge-in-numbers-banner {
+  margin: 20px;
+  text-align: right;
+
+  .challenge-in-number-item {
+    color: #8aa5ad;
+
+    &.challenge {
+      font-size: 50px;
+    }
+
+    &.active-days {
+      font-size: 35px;
+      margin-top: -5px;
+    }
+
+    &.period {
+      font-size: 25px;
+    }
+
+    &.steps {
+      font-size: 15px;
+      margin-top: 5px;
+    }
+  }
+}
+
+.capital-growth-banner {
+  margin-top: 100px;
+  text-align: right;
+
+  .capital-growth-banner-inner {
+    background: rgba(93, 93, 93, 0.7);
+    padding: 10px;
+    font-size: 25px;
+    color: #f1f1f1;
+  }
+
+  .capital-growth-item {
+    &.cap {
+      font-size: 13px;
+    }
+  }
+}
+
+.pink-underliner {
+  border-bottom: 1px solid #ff91a9;
+}
+
+.donate-banner {
+  margin-top: 100px;
+}
+
+.donate-banner-inner {
+  color: #c9cdce;
+  text-align: right;
+  padding: 10px;
+  font-size: 25px;
+  background: rgba(58,75,103,0.7);
+
+  .donate-per-day {
+    font-size: 12px;
+  }
+}
+
+.no-challenge-enroll-container {
+  text-align: center;
+  position: absolute;
+  bottom: 100px;
+  width: 100%;
+
+  .no-challenge-main-message {
+    margin-bottom: 5px;
+    color: #cc80af;
+  }
+}
