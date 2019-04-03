@@ -7,8 +7,7 @@ import { LoadingService } from '../../shared/service/loading.service';
 
 @Component({
   selector: 'app-explore-trivia',
-  templateUrl: 'trivia.page.html',
-  styleUrls: ['trivia.page.scss']
+  templateUrl: 'trivia.page.html'
 })
 
 export class TriviaPage {

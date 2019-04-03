@@ -5,8 +5,7 @@ import { Item } from './model/item';
 
 @Component({
   selector: 'app-explore-charity',
-  templateUrl: 'charity.page.html',
-  styleUrls: ['charity.page.scss']
+  templateUrl: 'charity.page.html'
 })
 export class CharityPage {
     currentItems: Item[];
